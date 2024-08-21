@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.container{
+    display:grid;
+    height:706px;
+    width:960px;
+    background-color: black;
+    gap:20px;
+    grid-template-columns: 54px 105px 244px 96px 166px 90px 85px;
+    grid-template-rows: 195px 218px 116px 117px;
+
+    
+    
+}
+
+.item{
+    background-color: rgb(250, 249, 246);
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.red{
+    background-color:red
+}
+
+.colspan2{
+    grid-column: span 2;
+}
+
+.rowspan2{
+    grid-row:span 2;
+}
